@@ -1,4 +1,4 @@
-baseurl: "/zolan" # the subpath of your site, e.g. /blog
+baseurl: "/ValueCompass" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
@@ -29,10 +29,6 @@ defaults:
       path: '_modules'
     values:
       permalink: /modules/:basename:output_ext
-  - scope:
-      path: '_latest'
-    values:
-      permalink: /latest/:basename:output_ext
 
 include:
   - _pages
