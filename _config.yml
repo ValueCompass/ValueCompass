@@ -18,6 +18,8 @@ collections:
     output: true
   latest:
     output: true
+  resources:
+    output: true
 
 # Pages Path
 defaults:
@@ -29,6 +31,10 @@ defaults:
       path: '_modules'
     values:
       permalink: /modules/:basename:output_ext
+  - scope:
+      path: '_resources'
+    values:
+      permalink: /resources/:basename:output_ext
 
 include:
   - _pages

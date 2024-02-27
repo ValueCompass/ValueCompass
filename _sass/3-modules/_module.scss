@@ -3,11 +3,13 @@
     overflow: hidden;
     cursor: pointer;
     text-align: center;
+    align-items: center;
 }
 
 .module .module-bg {
     position: relative;
-    min-height: 200px;
+    height: 200px;
+    //min-height: 200px;
     width: 100%;
     display: block;
     background-position: center;
