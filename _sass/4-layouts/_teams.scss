@@ -4,7 +4,7 @@
   font-size: 20px;
   font-weight: 700;
   display: block;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .team-members {
@@ -12,16 +12,16 @@
   flex-wrap: wrap;
   justify-content: space-around;  
   align-items: left;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .one-member {
   display: flex;
   text-align: left;
-  align-items: center;
+  align-items: left;
   margin-bottom: 40px;
   margin-right: 20px;
-  border: 1px solid red;
+  // border: 1px solid red;
 
   .member__image {
     margin-bottom: 20px;
@@ -35,7 +35,7 @@
 .member-info {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 15px;
 
   .member__name {
     font-size: 20px;
@@ -43,15 +43,15 @@
     // margin-bottom: 10px;
   }
   .member__position {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 18px;
   }
   .member__institution {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 18px;
   }
   .member-email {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 18px;
   }
 }
